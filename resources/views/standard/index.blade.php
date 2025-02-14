@@ -30,13 +30,13 @@
   
 <div id="invitationPage" class="hidden">
     {{-- pembukaan --}}
-    <section id="home" class="section bg-cover bg-no-repeat bg-center" style="background-image: url('{{ asset('images/templates/standard/1.png') }}');">
-      <div class="container mx-auto vh-100">
+    <section id="home" class="section bg-cover bg-no-repeat bg-center" style="background-image: url('{{ asset('images/templates/standard/1.jpg') }}');">
+      <div class=" bg-slate-600/20 mx-auto vh-100">
         <div class="h-screen flex justify-center items-center ">
           <div class="flex-col text-center justify-center items-center p-16">
-            <h4 class="text-2xl text-slate-900 font-ral mb-7 ">We are getting married</h4>
-            <h1 class="text-4xl p-4 text-slate-700 md:text-7xl font-pd font-semibold mb-5 slide-in-right">Elsa & Rifaldy</h1>
-            <p class="font-sans text-xl text-slate-900 slide-in-left mb-3">10 April 2025</p>
+            <h4 class="text-2xl font-ral mb-7 text-white">We are getting married</h4>
+            <h1 class="text-4xl p-4 text-white md:text-7xl font-pd font-semibold mb-5 slide-in-right">Elsa & Rifaldy</h1>
+            <p class="font-sans text-xl slide-in-left mb-3 text-white">10 April 2025</p>
             <hr class="mb-5"/>
             <div class="simply-countdown text-sm md:text-lg text-slate-50 mx-auto slide-in-bottom "></div>
           </div>
@@ -60,7 +60,7 @@
         <div class=" bg-offWhite flex-row justify-center pt-12 px-2 mb-10">
           <div class="flex-row justify-items-center text-center" data-aos="fade-right" data-aos-delay="500">
             <p class="font-ral md:text-2xl text-slate-900 mb-7">Assalamu’alaikum Warahmatullahi Wabarakatuh</p>
-            <p class="font-ral text-slate-900 w-full text-center md:text-xl md:w-5/6">Maha suci Allah SWT yang telah menciptakan makhluk-Nya berpasang-pasangan. Ya Allah, perkenankanlah kami merangkai kasih sayang yang Kau ciptakan di antara putra-putri kami:</p>
+            <p class="font-ral text-slate-900 w-full text-center md:text-xl md:w-5/6">Maha suci Allah SWT yang telah menciptakan makhluk-Nya berpasang-pasangan. Ya Allah, perkenankanlah kami merangkai kasih sayang yang Kau ciptakan di antara kami:</p>
           </div>
         </div>
 
@@ -72,7 +72,7 @@
               <p class="font-ral xl:text-xl">Putri dari <br class=""> Bapak Hadiana Astra Yasuka <br> dan Ibu Enik Wijayanti</p>
             </div>
             <div class="bg-cover rounded-2xl w-2/6 md:w-3/6 lg:w-2/6 overflow-hidden group hover:scale-95 transition-all duration-500" data-aos="flip-right" data-aos-delay="500" data-aos-duration="2000">
-              <div class="bg-cover rounded-2xl  aspect-[6/9] w-full group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/1.jpg') }}')"></div>
+              <div class="bg-cover rounded-2xl  aspect-[6/9] w-full group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/bride.jpg') }}')"></div>
             </div>
             <div class="flex justify-center items-center">
               <h2 class="font-ral md:text-4xl rotate-90  w-full"> The Bride</h2>
@@ -84,7 +84,7 @@
               <h2 class="font-ral md:text-4xl -rotate-90"> The Groom</h2>
             </div>
             <div class="bg-cover rounded-2xl w-2/6 md:w-3/6 lg:w-2/6 overflow-hidden group hover:scale-95 transition-all duration-500" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
-              <div class="bg-cover rounded-2xl aspect-[6/9] w-full group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/1.jpg') }}')"></div>
+              <div class="bg-cover rounded-2xl aspect-[6/9] w-full group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/groom.jpg') }}')"></div>
             </div>
             <div class="text-left" data-aos="fade-up-right" data-aos-duration="1000">
               <h1 class="font-pd font-semibold text-2xl mb-2">Rifaldy Yoga Irawan</h1>
@@ -95,26 +95,51 @@
         </div>
       </div>
     </section>
+
+    <section id="loveStory" class="bg-offWhite  bg-cover bg-center" style="background-image: url('{{ asset('images/templates/standard/story.jpg') }}')">
+      <div class="p-5 py-16 bg-slate-800/50 text-white" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+        <h1 class="font-ral text-xl md:text-5xl lg:text-5xl mb-10 font-semibold text-center" >Our Love Stories</h1>
+        <div class="flex justify-center items-center mb-10 ">
+            <p class="font-ral w-full text-center text-balance xl:w-5/6">
+              Coba aku tebak, mungkin suatu saat kamu akan banyak bercerita ke anak kita bagaimana pertama kamu dulu mencintaiku, dari awal melihatku, datang dan mendekatiku, mencoba memberi pesan lewat whatsapp, dan sampai meminta tolong ke temanku, sampai akhirnya menikahiku. <br> <br>
+              Hmmm Entah kenapa dahulu aku menolak kamu, entah mengapa dahulu aku tidak mebalas kasih mu, entah kenapa dahulu aku tidak pernah menghargai keberadaan seseorang yang sekarang akan berani menafkahiku. <br> <br>
+              mungkin kamu akan bilang "biarlah itu sudah berlalu" dan "terimakasih sudah mau mengenalku dan menerima aku". Hey.. hey.. hey.. Perjalanan kita masih sangat panjang, dan di awal kisah kita biarkanlah aku meminta maaf dengan tulus ya.
+            </p>  
+          </div>
+          <div class="flex justify-center items-center mb-4">
+              <p class="font-ral w-full text-center bg-sage py-4 px-6 rounded-lg xl:w-4/6 text-white">
+                &rsquo; Kita memang tidak diberi gambaran akan seperti apa kita masa depan, tapi kita diberi kesempatan menjalani dan belajar bersamanya. &rsquo;
+              </p>  
+          </div>
+          <h3 class="font-ral text-center italic mb-2">By : <span class="font-pd">Eca Frozen</span></h3>
+          <h4 class="font-ral text-center italic">
+            ~ Mungkin anak kita akan lebih mengerti perjuangan kamu untuk aku ~
+          </h4> 
+      </div>
+    </section>
     {{-- galleries --}}
-    <section id="gallery" class="section bg-offWhite py-10 ">
+    <section id="gallery" class="section bg-offWhite py-10 px-3">
       <div class="text-center pt-8 pb-10">
-        <h1 class="font-ral text-xl md:text-5xl lg:text-5xl mb-16 font-semibold">Galleries</h1>
+        <h1 class="font-ral text-xl md:text-5xl lg:text-5xl mb-16 font-semibold text-slate-900">Galleries</h1>
         <div class="flex justify-center h-full mx-auto">
-          <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-7 place-content-center">
-            <div class="h-56  md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
-              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/1.jpg') }}');"></div>
+          <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-7 md:gap-4 lg:gap-2 place-content-center">
+            <div class="h-56 border border-sage  md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
+              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/galleries/1.jpg') }}');"></div>
             </div>
-            <div class="h-56  md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
-              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/1.jpg') }}');"></div>
+            <div class="h-56 border border-sage md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
+              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/galleries/2.jpg') }}');"></div>
             </div>
-            <div class="h-56  md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
-              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/1.jpg') }}');"></div>
+            <div class="h-56 border border-sage md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
+              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/galleries/3.jpg') }}');"></div>
             </div>
-            <div class="h-56  md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
-              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/1.jpg') }}');"></div>
+            <div class="h-56 border border-sage md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
+              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/galleries/4.jpg') }}');"></div>
             </div>
-            <div class="h-56  md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
-              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/couple/1.jpg') }}');"></div>
+            <div class="h-56 border border-sage md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
+              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/galleries/5.jpg') }}');"></div>
+            </div>
+            <div class="h-56 border border-sage md:h-96 rounded-lg group overflow-hidden hover:scale-95 transition-all duration-500" data-aos="zoom-out" data-aos-duration="1000">
+              <div class=" bg-cover rounded-lg h-full aspect-[6/9] group-hover:scale-125 transition-all duration-500 group-hover:rotate-12" style="background-image: url('{{ asset('images/galleries/6.jpg') }}');"></div>
             </div>
           </div>
         </div>
@@ -122,21 +147,21 @@
     </section>
     
     {{-- weddings --}}
-    <section id="wedding" class="section pt-28 pb-16 lg:pt-28 bg-beige ">
-      <div class="container mx-auto px-5">
+    <section id="wedding" class="section  bg-beige " >
+      <div class="h-full pt-28 pb-16 lg:pt-28  mx-auto px-5">
 
-        <div class="flex justify-between md:justify-evenly space-x-4 mb-16">
-          <div class=" h-48 lg:h-72 xl:h-80 rounded-lg -rotate-6 bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/couple/1.jpg') }}')">
+        <div class=" flex justify-between md:justify-evenly space-x-4 mb-16">
+          <div class=" h-48 lg:h-72 xl:h-80 rounded-lg -rotate-6 bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/templates/standard/akad.jpg') }}')">
           </div>
-          <div class=" h-52 md:h-64 lg:hidden hidden md:block rotate-12 rounded-lg bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/couple/1.jpg') }}')">
+          <div class=" h-52 md:h-64 lg:hidden hidden md:block rotate-12 rounded-lg bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/templates/standard/resepsi.jpg') }}')">
           </div>
-          <div class="flex items-center ">
+          <div class="flex items-center text-slate-900 ">
             <div data-aos="fade-down-right" data-aos-duration="1000">
-              <h1 class="mb-4 font-ral font-semibold text-xl text-slate-800"> Akad & Resepsi</h1>
-              <h3 class="text-slate-800"> 10 April 2025</h3>
-              <p class="font-ral text-slate-800">Kediaman mempelai wanita</p>
+              <h1 class="mb-4 font-ral font-semibold text-xl "> Akad & Resepsi</h1>
+              <h3 class=""> 10 April 2025</h3>
+              <p class="font-ral ">Kediaman mempelai wanita</p>
               <hr class="mb-2 bg-slate-950">
-              <p class="text-balance text-slate-600 mb-2 lg:mb-4">Tamanasri RT.08 RW.03 Kec. Ampelgading</p>
+              <p class="text-balance  mb-2 lg:mb-4">Tamanasri RT.08 RW.03 Kec. Ampelgading</p>
               <div class="text-center">
                 <a href="https://maps.app.goo.gl/P1tPYXEkJpVVdmg37" class="py-1 px-2 text-white rounded-xl bg-sage items-center text-xs border border-sage hover:bg-white hover:text-slate-900" target="blank">google maps</a>
               </div>
@@ -151,8 +176,8 @@
               </div>
             </div>
           </div>
-          <div class=" h-52 md:h-64 lg:hidden hidden md:block -rotate-12 rounded-lg bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/couple/1.jpg') }}')"></div>
-          <div class=" h-48 lg:h-72 xl:h-80 rounded-lg lg:rotate-6 bg-cover aspect-[6/9]" style="background-image: url('{{ asset('images/couple/1.jpg') }}')"></div>
+          <div class=" h-52 md:h-64 lg:hidden hidden md:block -rotate-12 rounded-lg bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/templates/standard/akad.jpg') }}')"></div>
+          <div class=" h-48 lg:h-72 xl:h-80 rounded-lg lg:rotate-6 bg-cover aspect-[6/9]" style="background-image: url('{{ asset('images/templates/standard/resepsi.jpg') }}')"></div>
         </div>
       </div>
     </section>
@@ -184,14 +209,13 @@
     <section id="penutup" class="section penutup bg-beige ">
       <div class="container mx-auto">
         <div class="w-full px-4 text-center py-14 md:px-48 md:text-lg ">
-          <h1 class="mb-10 font-semibold">بِسْمِ اللَّهِ الرحمن الرَّحِيمِ</h1>
           <div class="flex justify-center items-center mb-10">
               <p class="font-ral w-full text-center xl:w-4/6">
                 Atas kehadiran dan do’a restu dari
                 Bapak/Ibu/Saudara/i sekalian,
                 kami mengucapkan Terima Kasih.</p>        
           </div>
-          <h1 class="text-center">Wassalamualaikum Wr. Wb</h1>
+          <h1 class="text-center">Wassalamualaikum Warahmatullahi Wabarakatuh</h1>
         </div>
       </div>
     </section>
@@ -203,9 +227,10 @@
   </footer>
   <div class="fixed top-0 right-0 h-full w-14">
     <div class="flex flex-col justify-center h-full">
-        <ul class="text-center space-y-1 bg-slate-400/40 rounded-lg">
+        <ul class="text-center space-y-1 bg-slate-100/40 rounded-lg">
             <li><a href="#" class="block text-4xl py-3 hover:bg-slate-600/75 hover:text-white hover:rounded-t-lg"><i class="fa-regular fa-envelope"></i></a></li>
             <li><a href="#couple" class="block text-4xl py-3 hover:bg-slate-600/75 hover:text-white"><i class="fa-regular fa-heart"></i></a></li>
+            <li><a href="#loveStory" class="block text-4xl py-3 hover:bg-slate-600/75 hover:text-white"><i class="fa-regular fa-note-sticky"></i></a></li>
             <li><a href="#gallery" class="block text-4xl py-3 hover:bg-slate-600/75 hover:text-white"><i class="fa-regular fa-images"></i></a></li>
             <li><a href="#wedding" class="block text-4xl py-3 hover:bg-slate-600/75 hover:text-white"><i class="fa-solid fa-calendar-days"></i></a></li>
             <li><a href="#chatsection" class="block text-4xl py-3 hover:bg-slate-600/75 hover:text-white"><i class="fa-regular fa-comment-dots"></i></a></li>
@@ -214,15 +239,15 @@
     </div>
   </div>
 </div>
-  <div class="tampil fixed top-0 right-0 left-0 bottom-0 mx-auto bg-cover bg-center slide-up" id="tampil" style="background-image: url('{{ asset('images/templates/standard/1.png') }}');">
-    <div class="tampil-body flex w-full text-center h-full justify-center py-10 items-center" >
-      <div class="hero">
-        <p class="mb-10 font-ral">Assalamualaikum Warohmatullahi Wabarokatuh</p>
-        <h4 class="mb-10 font-ral">Kepada Bapak/Ibu/Saudara/i, <span class="font-semibold"></span></h4>
-        <h1 class="font-ral font-semibold text-3xl mb-5">You're Invited!</h1>
-        <p class="mb-5 font-ral text-xl">Join us for a special celebration of love and happiness.</p>
-        <div class="simply-countdown text-sm md:text-lg text-slate-50 mx-auto mb-10"></div>
-        <button type="submit" id="openInvitationBtn" class="py-1 px-3 bg-slate-200 text-slate-900 rounded-full border hover:bg-slate-700/50 hover:text-white" >Open Invitation</button>
+  <div class="tampil fixed top-0 right-0 left-0 bottom-0 mx-auto bg-cover bg-center slide-up" id="tampil" style="background-image: url('{{ asset('images/templates/standard/1.jpg') }}');">
+    <div class="tampil-body bg-black/35 flex w-full text-center h-full justify-center py-32 px-4 items-end" >
+      <div class="hero text-white">
+        {{-- <p class="mb-3 font-ral">Assalamualaikum Warohmatullahi Wabarokatuh</p> --}}
+        <h4 class=" font-ral">Dear Mr./Mrs./Brother/Sister, <br> <span class="font-semibold"></span></h4>
+        <hr class="mb-3">
+        <h1 class="font-ral font-semibold text-xl mb-2">You're Invited!</h1>
+        <p class="mb-3 font-ral text-sm">Join us for a special celebration of love and happiness.</p>
+        <button type="submit" id="openInvitationBtn" class="py-2 px-7 bg-slate-700/50 border hover:bg-slate-200 hover:text-slate-800" ><i class="fa-regular fa-envelope"></i>&nbsp; Open Invitation</button>
       </div>
     </div>
   </div>
@@ -266,8 +291,8 @@
             .then(response => {
                 console.log('Success:', response.data);
                 alert('Chat submitted successfully!');
-                name.value = '';
-                chat.value = '';
+                document.querySelector('input[name="name"]').value="";
+                document.querySelector('textarea[name="chat"]').value="";
                 fetchChats(existingChats);
             })
             .catch(error => {
@@ -325,20 +350,27 @@
             }, 500); // Delay harus sama dengan durasi animasi CSS
             putarmusic();
         });
-        var audio = new Audio('{{ asset('audio/komang.mp3') }}');
+        var audio = new Audio('{{ asset('audio/asmaranala.mp3') }}');
         function putarmusic(){
             audio.play();
             audio.loop = true; 
         };
 
         function toggleMusic() {
-            var button = document.getElementById('song'); // Ambil tombol
+            const button = document.getElementById('song'); // Ambil tombol
+            const icon = button.querySelector('i');
+
             
             if (audio.paused) {
                 audio.play(); // Mulai musik
+                
+                icon.classList.remove("fa-volume-xmark");
+                icon.classList.add("fa-music");
 
             } else {
                 audio.pause(); // Hentikan musik
+                icon.classList.remove("fa-music");
+                icon.classList.add("fa-volume-xmark");
             }
         };
 
