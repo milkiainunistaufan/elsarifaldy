@@ -17,9 +17,12 @@ export default {
                 pd: 'Playfair Display'
             },
             colors: {
-                sage: '#9CAD84',
-                beige: '#F5F5DC',
-                offWhite: '#F8F8F8'
+                sage: '#0B3D2E',
+                beige: '#1C1C1C',
+                offWhite: '#D4AF37',
+                deepRed: '#8B0000',
+                ivory: '#F8F4E3',
+                bca: '#0070C0'
               },
         },
     },
