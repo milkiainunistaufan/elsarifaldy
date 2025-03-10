@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    {{-- mata --}}
+    <meta property="og:title" content="Elasa dan Rifaldy" />
+    <meta property="og:description" content="Doakan kami Sakinah, Mwaddah, Warrohmah" />
+    <meta property="og:image" content="https://elsarifaldy.chickencode.org/public/images/galleries/4.jpg" />
+    <meta property="og:url" content="https://elsarifaldy.chickencode.org/public/" />
+    <meta property="og:type" content="website" />
     {{-- font google --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -104,7 +110,7 @@
         </div>
       </div>
     </section>
-
+    {{-- love stories --}}
     <section id="loveStory" class="bg-offWhite  bg-cover bg-center" style="background-image: url('{{ asset('images/templates/standard/story.jpg') }}')">
       <div class="p-5 py-16 bg-slate-800/50 text-white" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
         <h1 class="font-ral text-xl md:text-5xl lg:text-5xl mb-10 font-semibold text-center" >Our Love Stories</h1>
@@ -129,7 +135,7 @@
     {{-- galleries --}}
     <section id="gallery" class="section bg-offWhite py-10 px-3">
       <div class="text-center pt-8 pb-10">
-        <h1 class="font-ral text-xl md:text-5xl lg:text-5xl mb-16 font-semibold text-slate-900">Galleries</h1>
+        <h1 class="font-ral text-2xl md:text-5xl lg:text-5xl mb-16 font-semibold text-black">Galleries</h1>
         <div class="flex justify-center h-full mx-auto">
           <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4">
             <a href="{{ asset('images/galleries/1.jpg') }}" data-aos="zoom-out" data-aos-duration="1000" data-fancybox="gallery"><img src="{{ asset('images/galleries/1.jpg') }}" class="rounded shadow"></a>
@@ -167,37 +173,49 @@
     <section id="wedding" class="section  bg-beige " >
       <div class="h-full pt-28 pb-16 lg:pt-28  mx-auto px-5">
 
-        <div class=" flex justify-between md:justify-evenly space-x-4 mb-16">
+        <div class=" flex justify-center items-center md:justify-evenly space-x-7 mb-16 p-2">
           <div class=" h-48 lg:h-72 xl:h-80 rounded-lg -rotate-6 bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/templates/standard/akad.jpg') }}')">
           </div>
           <div class=" h-52 md:h-64 lg:hidden hidden md:block rotate-12 rounded-lg bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/templates/standard/resepsi.jpg') }}')">
           </div>
           <div class="flex items-center text-white ">
-            <div data-aos="fade-down-right" data-aos-duration="1000">
-              <h1 class="mb-4 font-ral font-semibold text-xl "> Akad & Resepsi</h1>
-              <h3 class=""> 05 April 2025</h3>
-              <p class="font-ral ">Kediaman mempelai wanita</p>
+            <div>
+              <h1 class="mb-4 font-ral font-semibold text-2xl " data-aos="zoom-in-right" data-aos-duration="1000"> Akad & Resepsi</h1>
+              <h3 class="" data-aos="fade-right" data-aos-duration="1000"> 05 April 2025</h3>
+              <p class="font-ral " data-aos="fade-right" data-aos-duration="2000">Kediaman mempelai wanita</p>
               <hr class="mb-2 bg-slate-950">
-              <p class="text-balance  mb-2 lg:mb-4">Tamanasri RT.08 RW.03 Kec. Ampelgading</p>
-              <div class="text-center">
-                <a href="https://maps.app.goo.gl/P1tPYXEkJpVVdmg37" class="py-1 px-2 text-white rounded-xl bg-sage items-center text-xs border border-sage hover:bg-white hover:text-slate-900" target="blank">google maps</a>
-              </div>
+              <p class="text-balance  mb-2 lg:mb-4" data-aos="fade-up" data-aos-duration="2000">Tamanasri RT.08 RW.03 Kec. Ampelgading</p>
             </div>
           </div>
         </div>
-        <div class="flex justify-between md:justify-evenly space-x-4 mb-16">
-          <div class="flex items-center h-52 ">
-            <div class="">    
-              <div class="maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3948.6483410599635!2d112.85516737500974!3d-8.238071391794987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTQnMTcuMSJTIDExMsKwNTEnMjcuOSJF!5e0!3m2!1sid!2sid!4v1734965637806!5m2!1sid!2sid" class="h-48 md:h-80 w-full md:mt-16 rounded-lg border border-sage" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+        <div class="text-white text-center">
+          <h1 class="text-2xl mb-8 font-ral font-semibold">
+            Klik untuk lokasi
+          </h1>
+        </div>
+        <div class=" flex-row md:flex justify-center items-center mb-3 w-full text-white">
+          <div class="flex items-center justify-center md:w-1/2  mb-8">
+            <div class="text-center ">
+              <a href="https://maps.app.goo.gl/P1tPYXEkJpVVdmg37" class=" w-52 py-2 px-4 flex justify-center items-center space-x-2 rounded-xl bg-sage items-center border border-sage hover:bg-white hover:text-slate-900" target="blank">
+                  <i class="fa-brands fa-android text-3xl"></i> <h1>google maps</h1>
+              </a>
             </div>
           </div>
-          <div class=" h-52 md:h-64 lg:hidden hidden md:block -rotate-12 rounded-lg bg-cover aspect-[6/9] hover:rotate-0 transition-all duration-500" style="background-image: url('{{ asset('images/templates/standard/akad.jpg') }}')"></div>
-          <div class=" h-48 lg:h-72 xl:h-80 rounded-lg lg:rotate-6 bg-cover aspect-[6/9]" style="background-image: url('{{ asset('images/templates/standard/resepsi.jpg') }}')"></div>
+          <div class="flex items-center justify-center md:w-1/2  ">
+            <div class="text-center ">
+              <a href="https://maps.apple.com/?ll=-8.238078,112.857841&q=Lokasi%20eca&t=m" class="w-52 py-2 px-4 flex justify-center items-center space-x-2 rounded-xl bg-sage items-center border border-sage hover:bg-white hover:text-slate-900" target="blank">
+                <i class="fa-brands fa-apple text-3xl"></i> <h1>Apple Maps</h1>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <div class="">    
+      <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3948.6483410599635!2d112.85516737500974!3d-8.238071391794987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTQnMTcuMSJTIDExMsKwNTEnMjcuOSJF!5e0!3m2!1sid!2sid!4v1734965637806!5m2!1sid!2sid" class="h-48 md:h-80 w-full md:mt-16 rounded-lg border border-sage" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
     {{-- weddings gift --}}
     <section id="giftsection" class="section gift bg-offWhite">
       <div class="container mx-auto">
@@ -227,7 +245,7 @@
                   <label for="chat" class="block">Chat</label>
                   <textarea required id="chat" name="chat" class="w-full p-2 rounded-lg text-slate-800" required></textarea>
                 </div>
-                <button type="submit" id="sendChat" name="sendChat" class="bg-offWhite py-2  w-full rounded-lg text-white mb-5">Kirim</button>
+                <button type="submit" id="sendChat" name="sendChat" class="bg-offWhite py-2  w-full rounded-lg text-black mb-5">Kirim</button>
             </div>
           </div>
           <div id="chat-container" class=" w-full flex justify-center text-slate-900 h-60 ">
@@ -251,7 +269,7 @@
       </div>
     </section>
 
-  <footer class="bg-slate-800 text-white text-sm w-full">
+  <footer class="bg-sage text-white text-sm w-full">
     <div class="flex justify-center items-center h-16">
       <p>&copy; 2024 <a href="https://milki.chickencode.org" target="blank" class="">kowalsky invitaton.</a> All rights reserved.</p>
     </div>
@@ -280,8 +298,8 @@
         <h1 class="text-4xl font-bold mb-3">BCA</h1>
         <h2 class="text-2xl font-semibold mb-2">an. Elsadiana Maulana</h2>
         <div class="flex items-center text-2xl">
-            <input type="text" id="rekening" value="1240614746" class="border p-2 rounded w-48 text-center font-semibold" readonly>
-            <button onclick="copyRekening()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <input type="text" id="rekening" value="1240614746" class="border p-2 rounded-l-md w-48 text-center font-semibold" readonly>
+            <button onclick="copyRekening()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r-md">
                 <i class="fa-regular fa-copy"></i>
             </button>
         </div>

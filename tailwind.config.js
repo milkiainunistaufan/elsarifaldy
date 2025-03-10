@@ -19,7 +19,7 @@ export default {
             colors: {
                 sage: '#0B3D2E',
                 beige: '#1C1C1C',
-                offWhite: '#D4AF37',
+                offWhite: '#F5F2D0',
                 deepRed: '#8B0000',
                 ivory: '#F8F4E3',
                 bca: '#0070C0'
