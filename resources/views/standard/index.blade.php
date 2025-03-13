@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     {{-- mata --}}
-    <meta property="og:title" content="Elasa dan Rifaldy" />
-    <meta property="og:description" content="Doakan kami Sakinah, Mwaddah, Warrohmah" />
+    <meta property="og:title" content="Elsa dan Rifaldy" />
+    <meta property="og:description" content="Doakan kami Sakinah, Mawadah, Warrohmah" />
     <meta property="og:image" content="https://elsarifaldy.chickencode.org/public/images/galleries/4.jpg" />
     <meta property="og:url" content="https://elsarifaldy.chickencode.org/public/" />
     <meta property="og:type" content="website" />
@@ -116,19 +116,20 @@
         <h1 class="font-ral text-xl md:text-5xl lg:text-5xl mb-10 font-semibold text-center" >Our Love Stories</h1>
         <div class="flex justify-center items-center mb-10 ">
             <p class="font-ral w-full text-center text-balance xl:w-5/6">
-              Coba aku tebak, mungkin suatu saat kamu akan banyak bercerita ke anak kita bagaimana pertama kamu dulu mencintaiku, dari awal melihatku, datang dan mendekatiku, mencoba memberi pesan lewat whatsapp, dan sampai meminta tolong ke temanku, sampai akhirnya menikahiku. <br> <br>
-              Hmmm Entah kenapa dahulu aku menolak kamu, entah mengapa dahulu aku tidak mebalas kasih mu, entah kenapa dahulu aku tidak pernah menghargai keberadaan seseorang yang sekarang akan berani menafkahiku. <br> <br>
-              mungkin kamu akan bilang "biarlah itu sudah berlalu" dan "terimakasih sudah mau mengenalku dan menerima aku". Hey.. hey.. hey.. Perjalanan kita masih sangat panjang, dan di awal kisah kita biarkanlah aku meminta maaf dengan tulus ya.
+              Masa SMP-ku mungkin biasa saja, bahkan banyak hal yang sudah kulupakan. Tapi semuanya berubah menjadi cerita yang indah sejak aku bertemu denganmu. Bukan karena kita punya banyak kenangan manis atau melakukan hal-hal menyenangkan bersama, tapi karena kisah yang menyertai kehadiranmu. <br> <br>
+              Kamu tahu? Perjuanganmu untuk tetap ada setelah semua drama masa laluku yang membuat hatiku hancur… setelah beberapa kali aku menolak harapan yang kamu titipkan… semua itu seakan berlalu begitu saja. Tapi kamu tidak pernah menyerah, bahkan hingga detik ini. <br> <br>
+              Mungkin pertemuan kita yang kesekian kalinya bukanlah kebetulan, tapi takdir yang dipermudah lewat curhatku kepada seorang teman yang sudah seperti kakakku sendiri. Karena lewat dia, aku mulai melihat perjuanganmu… kesungguhanmu… yang tak pernah pudar. <br> <br>
+              Terima kasih untuk semua warna indah yang akhirnya bisa aku lihat dalam hidupku.
             </p>  
           </div>
           <div class="flex justify-center items-center mb-4">
               <p class="font-ral w-full text-center bg-sage py-4 px-6 rounded-lg xl:w-4/6 text-white">
-                &rsquo; Kita memang tidak diberi gambaran akan seperti apa kita masa depan, tapi kita diberi kesempatan menjalani dan belajar bersamanya. &rsquo;
+                &rsquo; Do'akan kami menjadi keluarga sakinnah mawada warahmaa, menjadi jodoh dunia akhirat selalu diberkahi dan bahagia. &rsquo;
               </p>  
           </div>
           <h3 class="font-ral text-center italic mb-2">By : <span class="font-pd">Eca Frozen</span></h3>
           <h4 class="font-ral text-center italic">
-            ~ Mungkin anak kita akan lebih mengerti perjuangan kamu untuk aku ~
+            ~ Kita memang tidak diberi gambaran akan seperti apa kita masa depan, tapi kita diberi kesempatan menjalani dan belajar bersamanya.u ~
           </h4> 
       </div>
     </section>
@@ -180,21 +181,22 @@
           </div>
           <div class="flex items-center text-white ">
             <div>
-              <h1 class="mb-4 font-ral font-semibold text-2xl " data-aos="zoom-in-right" data-aos-duration="1000"> Akad & Resepsi</h1>
-              <h3 class="" data-aos="fade-right" data-aos-duration="1000"> 05 April 2025</h3>
-              <p class="font-ral " data-aos="fade-right" data-aos-duration="2000">Kediaman mempelai wanita</p>
-              <hr class="mb-2 bg-slate-950">
-              <p class="text-balance  mb-2 lg:mb-4" data-aos="fade-up" data-aos-duration="2000">Tamanasri RT.08 RW.03 Kec. Ampelgading</p>
+              <h1 class="mb-4 font-ral font-semibold text-2xl md:text-4xl md:font-semibold " data-aos="zoom-in-right" data-aos-duration="1000"> Akad & Resepsi</h1>
+              <h3 class="md:mb-2" data-aos="fade-right" data-aos-duration="1000"> 05 April 2025</h3>
+              <p class="font-ral md:mb-2 md:text-xl" data-aos="fade-right" data-aos-duration="2000">Kediaman mempelai wanita</p>
+              <hr class="mb-2 md:mb-4 bg-slate-950">
+              <p class="text-balance  mb-2 md:text-xl lg:mb-4" data-aos="fade-up" data-aos-duration="2000">Tamanasri RT.08 RW.03 Kec. Ampelgading</p>
             </div>
           </div>
         </div>
         <div class="text-white text-center">
+          <hr class="mb-10 md:w-1/2 lg:w-1/3 mx-auto">
           <h1 class="text-2xl mb-8 font-ral font-semibold">
             Klik untuk lokasi
           </h1>
         </div>
-        <div class=" flex-row md:flex justify-center items-center mb-3 w-full text-white">
-          <div class="flex items-center justify-center md:w-1/2  mb-8">
+        <div class=" flex-row md:flex justify-center items-center w-full text-white">
+          <div class="flex items-center justify-center md:w-1/2  mb-8 md:mb-0">
             <div class="text-center ">
               <a href="https://maps.app.goo.gl/P1tPYXEkJpVVdmg37" class=" w-52 py-2 px-4 flex justify-center items-center space-x-2 rounded-xl bg-sage items-center border border-sage hover:bg-white hover:text-slate-900" target="blank">
                   <i class="fa-brands fa-android text-3xl"></i> <h1>google maps</h1>
@@ -308,13 +310,13 @@
   </div>
 </div>
   <div class="tampil fixed top-0 right-0 left-0 bottom-0 mx-auto bg-cover bg-center slide-up" id="tampil" style="background-image: url('{{ asset('images/templates/standard/1.jpg') }}');">
-    <div class="tampil-body bg-black/35 flex w-full text-center h-full justify-center py-32 px-4 items-end" >
-      <div class="hero text-white">
+    <div class="tampil-body bg-black/35 flex w-full text-center h-full justify-center py-32 px-4 items-end " >
+      <div class="hero text-white md:w-1/2 ">
         {{-- <p class="mb-3 font-ral">Assalamualaikum Warohmatullahi Wabarokatuh</p> --}}
-        <h4 class=" font-ral">Dear Mr./Mrs./Brother/Sister, <br> <span class="font-semibold"></span></h4>
-        <hr class="mb-3">
-        <h1 class="font-ral font-semibold text-xl mb-2">You're Invited!</h1>
-        <p class="mb-3 font-ral text-sm">Join us for a special celebration of love and happiness.</p>
+        <h4 class=" font-ral lg:text-2xl lg:mb-2">Dear Mr./Mrs./Brother/Sister, <br> <span class="font-semibold lg:text-2xl"></span></h4>
+        <hr class="mb-3 lg:mb-5">
+        <h1 class="font-ral font-semibold text-xl lg:text-4xl mb-2 lg:mb-4">You're Invited!</h1>
+        <p class="mb-3 font-ral text-sm lg:text-base lg:mb-5">Join us for a special celebration of love and happiness.</p>
         <button type="submit" id="openInvitationBtn" class="py-2 px-7 bg-slate-700/50 border hover:bg-slate-200 hover:text-slate-800" ><i class="fa-regular fa-envelope"></i>&nbsp; Open Invitation</button>
       </div>
     </div>
